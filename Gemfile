@@ -36,6 +36,8 @@ gem 'simple_form'
 
 gem 'awesome_print'
 
+gem 'dotenv-rails', groups: [:development, :test]
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
