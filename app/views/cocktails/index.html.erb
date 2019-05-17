@@ -4,7 +4,7 @@
   <div class="cards">
     <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
     url(https://images.unsplash.com/photo-1542849187-5ec6ea5e6a27?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80)">
-        <%= cocktail.name.upcase %>
+      <%= link_to cocktail.name.upcase, cocktail_path(cocktail) %>
     </div>
   </div>
 <% end %>
