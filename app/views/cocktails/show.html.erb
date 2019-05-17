@@ -5,6 +5,11 @@
   <%= dose.ingredient.name %>
 <% end %>
 
+<br><br>
+
+
+<%= cl_image_tag @cocktail.photo, height: 300, width: 400, crop: :fill %>
+
 <p><%= link_to "Add a dose", new_cocktail_dose_path(@cocktail) %></p>
 
 <p><%= link_to "Back home", cocktails_path %></p>

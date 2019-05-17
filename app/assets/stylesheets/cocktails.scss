@@ -4,12 +4,14 @@
 .cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  color: white;
+  // color: white;
+  background-color: white;
   font-weight: bold;
   text-align: center;
   grid-gap: 16px;
   height: 200px;
   margin: 20px;
+
 }
 
 .card-category {
